@@ -1,0 +1,22 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(230, 230, 253);
+}
+
+h1 {
+    background-color: rgb(85, 85, 255);
+    font-family: 'Lobster', cursive;
+}
+
+img {
+    background-color: #ADD8E6;
+}
+
+@media screen and (min-width: 992px) {
+    .future{
+        display: inline-flex;
+    }
+}

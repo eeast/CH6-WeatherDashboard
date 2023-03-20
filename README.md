@@ -39,7 +39,9 @@ This website can be used to track the weather in multiple locations.
 
 ## Demonstration
 
-Website deployed at [eeast.github.io/CH6-WeatherDashboard/](https://eeast.github.io/CH6-WeatherDashboard/)
+Website deployed at [eeast.github.io/CH6-WeatherDashboard/![1679091814456](image/README/1679091814456.png)](https://eeast.github.io/CH6-WeatherDashboard/)
+
+![1679091796084](image/README/1679091796084.png)
 
 ## License
 

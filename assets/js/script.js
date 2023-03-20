@@ -50,7 +50,7 @@ let getLocation = function(event) {
         searchInputEl.val("");
         
         if (isNewSearch(cityName)) {
-            let requestURL = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIkey}`;
+            let requestURL = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${APIkey}`;
             fetch(requestURL).then(res => {
                 if(res.status == 200) {
                     res.json().then(data => {
@@ -134,7 +134,7 @@ let smartSearch = function(c) {
 
 let getWeather = function(c) {
     let loc = getCoord(c);
-    let requestURL = `http://api.openweathermap.org/data/2.5/forecast?lat=${loc[0]}&lon=${loc[1]}&appid=${APIkey}&units=imperial`;
+    let requestURL = `https://api.openweathermap.org/data/2.5/forecast?lat=${loc[0]}&lon=${loc[1]}&appid=${APIkey}&units=imperial`;
     fetch(requestURL).then(res => {
         if(res.status == 200) {
             res.json().then(data => {
